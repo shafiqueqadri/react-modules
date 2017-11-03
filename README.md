@@ -20,6 +20,6 @@ Major React modules in use.
     <p>17- AsyncStorage</p>
 
 <h3>How to use?</h3>
-    <p>1- Just clone the code from >`git clone https://github.com/mrshafiqueqadri/react-modules.git`</p>
+    <p>1- Just clone the code from `git clone https://github.com/mrshafiqueqadri/react-modules.git`</p>
     <p>2- Open App.js</p>
     <p>3- Replace any module with Routes in App Return.</p>
