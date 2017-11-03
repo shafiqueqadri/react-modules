@@ -21,6 +21,7 @@ class ModalExample extends Component {
             <View style={styles.container}>
                 <Modal animationType={"slide"} transparent={false}
                     visible={this.state.modalVisible}
+                    presentationStyle="formSheet"
                     onRequestClose={() => {console.log("Modal has been closed.")} }>
                     <View style={styles.modal}>
                         <Text style={styles.text}>Modal is open!</Text>

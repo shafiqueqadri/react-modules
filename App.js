@@ -16,8 +16,10 @@ import StatusBarChecking from "./src/Statusbar";
 import AlertExample from "./src/AlertExample";
 import AsyncGeolocation from "./src/ASyncGeoLocation";
 import AsyncStorageExample from "./src/AsyncStorage";
-
+import GridView from "./src/grid/grid-view";
+import languages from "./src/languages/language-module";
 const App = () => {
+  console.log(languages)
   return (
     <Routes />
   )
