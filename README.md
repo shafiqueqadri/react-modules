@@ -24,5 +24,5 @@ Major React modules in use.
 
 > git clone https://github.com/mrshafiqueqadri/react-modules.git
 
-Open App.js
-Replace any module with Routes in App Return.
+1. Open App.js
+2. Replace any module with Routes in App Return.
