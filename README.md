@@ -1,7 +1,7 @@
 # react-modules
 Major React modules in use.
 Modules:
-    1- List
+    <p>1- List</p>
     2- Input
     3- ScrollView
     4- Image
@@ -20,6 +20,6 @@ Modules:
     17- AsyncStorage
 
 How to use?
-    1- Just clone the code from git clone https://github.com/mrshafiqueqadri/react-modules.git
+    1- Just clone the code from `git clone https://github.com/mrshafiqueqadri/react-modules.git`
     2- Open App.js
     3- Replace any module with Routes in App Return.
