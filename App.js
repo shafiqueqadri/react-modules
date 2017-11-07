@@ -19,8 +19,10 @@ import AsyncGeolocation from "./src/ASyncGeoLocation";
 import AsyncStorageExample from "./src/AsyncStorage";
 import GridView from "./src/grid/grid-view";
 import languages from "./src/languages/language-module";
-
+import FlastListExample from "./src/FlatList";
 import SideMenu from "react-native-side-menu";
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -56,7 +58,7 @@ class App extends React.Component {
       name: "Shafique",
     }
     return (
-      <Routes menu={elements}/>
+      <ModelExample />
     )
   }
 }

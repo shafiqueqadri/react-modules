@@ -3,29 +3,30 @@ import { View, Text } from 'react-native'
 
 class HttpExample extends Component {
     state = {
-        data: ''
+        data: 'Shafique'
     }
     componentDidMount = () => {
-    fetch('https://jsonplaceholder.typicode.com/posts/1', {
-        method: 'GET'
-    })
-        .then((response) => response.json())
-        .then((responseJson) => {
-            console.log(responseJson);
-         
-            this.setState({
-                data: responseJson
-            })
+        fetch('https://requestb.in/y2mv8qy2', {
+            method: 'POST',
+            body: JSON.stringify({name: "Shafique"})
         })
-        .catch((error) => {
-            console.error(error);
-        });
+            .then((response) => response._bodyText)
+            .then((responseJson) => {
+                console.log(responseJson);
+            
+                this.setState({
+                    data: responseJson
+                })
+            })
+            .catch((error) => {
+                console.error(error);
+            });
     }
     render() {
         return (
             <View>
                 <Text>
-                    { this.state.data.body }
+                    { this.state.data }
                 </Text>
             </View>
         )

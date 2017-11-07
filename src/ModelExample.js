@@ -28,9 +28,8 @@ class ModalExample extends Component {
 
                         <TouchableHighlight onPress={() => {
                             this.toggleModal(!this.state.modalVisible)}}>
-
-                        <Text style={styles.text}>Close Modal</Text>
-                    </TouchableHighlight>
+                            <Text style={styles.text}>Close Modal</Text>
+                        </TouchableHighlight>
                     </View>
                 </Modal >
 

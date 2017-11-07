@@ -1,5 +1,5 @@
 import React from 'react'
-import { TouchableOpacity, Text, View, StyleSheet } from 'react-native';
+import { Platform, TouchableOpacity, Text, View, StyleSheet } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import Drawer from 'react-native-drawer'
 
@@ -7,6 +7,7 @@ class Home extends React.Component {
     constructor(){
         super();
         this.state = {open: false}
+        console.log(Platform)
     }
     goToAbout (){
         this._controlMenu();
@@ -58,6 +59,7 @@ class Home extends React.Component {
                 panCloseMask={0.2}
                 closedDrawerOffset={-3}
                 styles={drawerStyles}
+                tweenDuration={250}
                 tweenHandler={(ratio) => ({
                     main: { opacity: (2 - ratio) / 2 }
                 })}

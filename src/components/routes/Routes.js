@@ -19,7 +19,7 @@ class Routes extends React.Component {
         return (
             <Router navigationBarStyle={{ backgroundColor: '#1e2226' }} titleStyle={{ color: "#FFF" }}>
                 <Scene key="root">
-                    <Scene key="home" path="/home" component={Home} title="Home" initial={true} titleStyle={{ color: "#FFF" }} />
+                    <Scene key="home" path="/home" component={Home} navigationBarTitleImage={require('../../../logo.png')} navigationBarTitleImageStyle={{width: 50, height:50}} initial={true} titleStyle={{ color: "#FFF" }} />
                     <Scene key="about" component={About} title="About" />
                 </Scene>
             </Router>
