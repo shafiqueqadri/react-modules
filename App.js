@@ -21,9 +21,11 @@ import GridView from "./src/grid/grid-view";
 import languages from "./src/languages/language-module";
 import FlastListExample from "./src/FlatList";
 import SideMenu from "react-native-side-menu";
+import GridViewExample from "./src/SuperGrid";
+import AdvanceModal from "./src/advanceModal";
 
-
-
+import AllRoutes from "./src/StackNav";
+import DrawerStack from "./src/Drawer";
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -58,7 +60,7 @@ class App extends React.Component {
       name: "Shafique",
     }
     return (
-      <ModelExample />
+      <AllRoutes />
     )
   }
 }

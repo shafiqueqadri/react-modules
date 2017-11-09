@@ -9,12 +9,19 @@
 	"dependencies": {
 		"react": "16.0.0-beta.5",
 		"react-native": "0.49.5",
+		"react-native-button": "^2.1.0",
 		"react-native-deprecated-custom-components": "^0.1.1",
 		"react-native-drawer": "^2.5.0",
 		"react-native-flexbox-grid": "^0.3.2",
+		"react-native-google-places-autocomplete": "^1.3.6",
+		"react-native-modalbox": "^1.4.2",
 		"react-native-router-flux": "^4.0.0-beta.22",
 		"react-native-side-menu": "^1.1.3",
-		"react-native-sidebar": "^0.3.0"
+		"react-native-sidebar": "^0.3.0",
+		"react-native-slider": "^0.11.0",
+		"react-native-super-grid": "^1.1.0",
+		"react-native-vector-icons": "^4.4.2",
+		"react-navigation": "^1.0.0-beta.19"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
