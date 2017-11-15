@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import { View, TouchableOpacity, Text, Button } from "react-native";
+import { View, TouchableOpacity, Text, Button, Image } from "react-native";
 import Profile from "./Profile";
 export default class Home extends Component {
     static navigationOptions = ({ navigation }) => ({
-        title: 'Home Page',
+        title: <Image source={require('../../logo.png')} style={{width: 50, height: 50}}/>,
         headerRight: <TouchableOpacity><Text style={{color: "blue"}}>Next </Text></TouchableOpacity>,
-        headerLeft: <TouchableOpacity onPress={() => navigation.navigate('DrawerToggle')}><Text>Menu</Text></TouchableOpacity>
+        headerLeft: <TouchableOpacity onPress={() => navigation.navigate('DrawerToggle')}>
+                        <Image style={{width: 20, height: 20, marginLeft: 10}} source={require('../../menu.png')} />
+                    </TouchableOpacity>
         
     });
     render() {

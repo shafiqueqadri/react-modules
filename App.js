@@ -23,9 +23,10 @@ import FlastListExample from "./src/FlatList";
 import SideMenu from "react-native-side-menu";
 import GridViewExample from "./src/SuperGrid";
 import AdvanceModal from "./src/advanceModal";
-
+import GooglePlacesInput from "./src/Geocoding";
 import AllRoutes from "./src/StackNav";
 import DrawerStack from "./src/Drawer";
+import SwipeableExample from "./src/SwipeableList";
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -60,7 +61,7 @@ class App extends React.Component {
       name: "Shafique",
     }
     return (
-      <AllRoutes />
+      <SwipeableExample />
     )
   }
 }

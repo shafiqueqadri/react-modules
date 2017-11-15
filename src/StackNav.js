@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StackNavigator, DrawerNavigator } from "react-navigation";
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 import { View, TouchableOpacity, Text, Button, Image, StyleSheet } from "react-native";
 
 import Home from "./pages/Home";
@@ -12,7 +12,7 @@ const DrawerStack = DrawerNavigator({
     Home: {
         screen: Home,
         navigationOptions: {
-            drawerLabel: 'Home',
+            drawerLabel: 'Home'
         }
     },
     About: {
@@ -29,6 +29,15 @@ const DrawerStack = DrawerNavigator({
             headerTitle: "Profile"
         }
     },
+}, {
+        drawerBackgroundColor: "blue",
+        contentOptions: {
+            inactiveTintColor: "white",
+            activeBackgroundColor: "white",
+            activeTintColor: "blue",
+
+
+        }
 });
 
 const AllRoutes = StackNavigator({
