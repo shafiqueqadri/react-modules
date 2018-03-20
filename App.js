@@ -61,7 +61,7 @@ class App extends React.Component {
       name: "Shafique",
     }
     return (
-      <SwipeableExample />
+      <DynamicAnimations />
     )
   }
 }
